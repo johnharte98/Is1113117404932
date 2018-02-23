@@ -23,7 +23,7 @@ function display(parm1){
 }
 
 
-function enablebtnproceed(){
+function enablebtnProceed(){
     $('#btnProceed').prop('disabled',false);
 }
 

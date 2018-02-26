@@ -1,15 +1,79 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>117404932</title>
+<head>
+    <title>117404932</title>
         <link rel= "stylesheet" href="stylesheet.css" type="Text/css"/>
-   
-    </head>
-    <body>
-        <h1 class="mainheading">117404932- IS1113 Project</h1>
-        
-        <a href="cv/cv_page1.html">Curriculum Vitae</a>
-        <a href="interests/sports.html">Interests</a>
-        <a href="ebusiness/ebus1.php">Ebusiness</a>
-    </body>
+  
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1a1a1a;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: blue;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a href="homepage.html">Home</a></li>
+  <li><a href="cv/cv_page1.html">CV</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Interests</a>
+    <div class="dropdown-content">
+      <a href="interests/sports.html">Sports</a>
+      <a href="interests/travel.html">Travel</a>
+      <a href="interests/cloudservices.html">Cloud Services</a>
+    </div>
+ <li><a href="ebusiness/ebus1.php">Ebusiness</a></li>
+  </li>
+  
+</ul>
+
+<h3>Welcome</h3>
+<p>...........</p>
 </html>

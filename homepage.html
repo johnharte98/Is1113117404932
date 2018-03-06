@@ -75,10 +75,31 @@ li.dropdown {
       <a href="interests/travel.html">Travel</a>
     </div>
  <li><a href="ebusiness/ebus1.php">Ebusiness</a></li>
+  <li><a href="https://github.com/johnharte98/Is1113117404932">Github</a></li>
+  <li><a href="https://dashboard.heroku.com/apps/is1113117404932">Heroku</a></li>
   </li>
   
 </ul>
+<div id="googleMap" style="width:100%;height:400px;"></div>
+  
+<script>
+<body>
+<div id="map" style="width:400px;height:400px;background:yellow"></div>
 
+<script>
+function myMap() {
+var mapOptions = {
+    center: new google.maps.LatLng(51.5, -0.12),
+    zoom: 10,
+    mapTypeId: google.maps.MapTypeId.HYBRID
+}
+var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+</body>
 <h3>Welcome</h3>
 <p>Thanks for visiting </p>
+    
 </html>

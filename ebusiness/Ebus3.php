@@ -17,8 +17,8 @@ session_start();
        
         <h3>Receipt</h3>
         
+        <!--Setting Echo Variables-->
         <?php
-        
         echo "Name: " . $_SESSION["name"] . ".";
         ?>
         
@@ -28,14 +28,15 @@ session_start();
         ?>
         </p>
          
-         <p>
+        <p>
         <?php
         echo "Address is $" . $_SESSION["address"] . ".";
         ?>
         </p>
         
-      <p><?php
-        echo "Total is $" . $_SESSION["total"] . ".";?> 
-        </p>
+      <p>
+      <?php
+      echo "Total is $" . $_SESSION["total"] . ".";?> 
+      </p>
     </body>
 </html>

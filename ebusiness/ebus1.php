@@ -20,6 +20,7 @@
             
             <br/>
             
+            <!--Product Choices-->
             <form method="POST" action="Ebus2.php">
               
               
@@ -48,6 +49,7 @@
               <br/>
               <br/>
               
+              <!--Labelling subtotal, discount, vat and total price-->
               <label for="subtotal">Sub Total
               <input type="text" id="subtotal" name="subtotal" value="0.00" readonly/>
               </label>
@@ -71,13 +73,13 @@
               </label>
     
               <br/>
-          
+          <!--Used to navigate to details and pin-->
               <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
             
             </form>
             
             <br/>
-            
+            <!--Calculating cost of each item using function-->
             <button onClick="calcSub()">Calculate Cost</button>
             
             <br/>

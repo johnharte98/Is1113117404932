@@ -20,7 +20,7 @@ session_start();
     </head>
     
     <body>
-        
+        <!--Payment and Customer Details-->
         <h3>Enter payment details</h3>
 
             <form action = "Ebus3.php" method = "POST">
@@ -52,7 +52,7 @@ session_start();
             <br/>
             
             <button onClick="validateDetails()">Validate</button>
-        
+        <!--setting session variables-->
         <?php
         $_SESSION["name"] = $_POST["name"];
         $_SESSION["email"] = $_POST["email"];

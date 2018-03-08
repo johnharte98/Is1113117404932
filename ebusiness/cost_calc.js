@@ -38,11 +38,11 @@ display(parmSubTotal, discountAmt, vatAmt, totalPrice);
 
 function display(parm1, parm2, parm3, parm4){
     
-    document.getElementById("subtotal").value = parm1;
-    document.getElementById("discountAmt").value = parm2;
-    document.getElementById("vatAmt").value = parm3;
-    document.getElementById("totalPrice").value = parm4;
-    enablebtnProceed();
+document.getElementById("subtotal").value = parm1;
+document.getElementById("discountAmt").value = parm2;
+document.getElementById("vatAmt").value = parm3;
+document.getElementById("totalPrice").value = parm4;
+enablebtnProceed();
 }
 
 function enablebtnProceed(){

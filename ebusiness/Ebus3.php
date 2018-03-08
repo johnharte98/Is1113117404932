@@ -34,28 +34,8 @@ session_start();
         ?>
         </p>
         
-        <p>
-        <?php
-        echo "SubTotal is $" . $_SESSION["subtotal"] . ".";
-        ?>
-        </p>
-        
-        <p>
-        <?php
-        echo "Discount $" . $_SESSION["discountAmt"] . ".";
-        ?>
-        </p>
-        
-        <p>
-        <?php
-        echo "VAT is $" . $_SESSION["vatAmt"] . ".";
-        ?>
-        </p>
-        
-        <p>
-        <?php
-        echo "Total is $" . $_SESSION["total"] . ".";
-        ?>
+      <p><?php
+        echo "Total is $" . $_SESSION["total"] . ".";?> 
         </p>
     </body>
 </html>

@@ -18,25 +18,11 @@ session_start();
         <h3>Receipt</h3>
         
         <!--Setting Echo Variables-->
-        <?php
-        echo "Name: " . $_SESSION["name"] . ".";
-        ?>
-        
-        <p>
-        <?php
-        echo "E-Mail: " . $_SESSION["email"] . ".";
-        ?>
-        </p>
-         
-        <p>
-        <?php
-        echo "Address is $" . $_SESSION["address"] . ".";
-        ?>
-        </p>
-        
+       
       <p>
       <?php
       echo "Total is $" . $_SESSION["total"] . ".";?> 
       </p>
+      <a href="../homepage.html" class="btn btn-success">home</a>
     </body>
 </html>

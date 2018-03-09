@@ -4,7 +4,7 @@ session_start();
 ?>
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
     
     <head>
         <meta charset="utf-8"/>
@@ -16,7 +16,7 @@ session_start();
         
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script type="text/javascript" src="ebus2_validation.js"></script>
+        <script type="text/javascript" src="ebus2_validator.js"></script>
     </head>
     
     <body>
@@ -54,12 +54,6 @@ session_start();
             <button onClick="validateDetails()">Validate</button>
         <!--setting session variables-->
         <?php
-        $_SESSION["name"] = $_POST["name"];
-        $_SESSION["email"] = $_POST["email"];
-        $_SESSION["address"] = $_POST["address"];
-        $_SESSION["subtotal"] = $_POST["subtotal"];
-        $_SESSION["discountAmt"] = $_POST["discountAmt"];
-        $_SESSION["vatAmt"] = $_POST["vatAmt"];
         $_SESSION["total"] = $_POST["total"];
         ?>
         
